@@ -7,7 +7,7 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quotes: Quote[] = [
-    new Quote(1, '"It is you life, you have to enjoy it!"', 'Floride', 'Floride', new Date(2021,1,2), 0, 0),
+    new Quote(1, '"It is your life, you have to enjoy it!"', 'Floride', 'Floride', new Date(2021,1,2), 0, 0),
   ];
   toggleDetails(index:any){
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
