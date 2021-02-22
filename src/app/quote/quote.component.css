@@ -1,3 +1,9 @@
 body{
-    background-color:white;
+    background-image: url('https://i.postimg.cc/vB37G7jN/heza.jpg');
+    background-repeat: no-repeat;
+    
+}
+.firstText{
+    margin-left: 5%;
+    color: white;
 }
