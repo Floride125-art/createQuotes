@@ -2,25 +2,18 @@ form{
     padding:5%;
     box-shadow:2px 2px 5px black;
     background-color:grey;
-    width: 30%;
-    margin-left: 5%;
+    
+ 
+    margin-bottom: 5%;
     
 }
-input{
-    width:80%;
-    padding:12px 20px;
-    margin:8px 0;
-    border:1px solid gray;
-}
-textarea{
-    width:80%;
-    padding:12px 20px;
-    margin:8px 0;
-    height:100px;
-    border:1px solid gray;
-}
+
+
 h2{
-    margin-left: 5%;
+ 
     
     color: wheat;
+}
+.myButton{
+    background-color: rgb(1, 9, 26);
 }

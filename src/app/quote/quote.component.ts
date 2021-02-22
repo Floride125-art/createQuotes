@@ -8,8 +8,6 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
   quotes: Quote[] = [
     new Quote(1, '"It is you life, you have to enjoy it!"', 'Floride', 'Floride', new Date(2021,1,2), 0, 0),
-    new Quote(2, '"Work hard, the sky is limit"', 'Denyse', 'Dufitimana', new Date(2020,27,12), 0, 0),
-    new Quote(3, '"Never give up dear "', 'j.George', 'Patel', new Date(2021,2,2), 0, 0),
   ];
   toggleDetails(index:any){
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
